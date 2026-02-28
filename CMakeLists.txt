@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(dm_api_c VERSION 1.1.0 LANGUAGES C)
+project(dm_api_c VERSION 1.2.0 LANGUAGES C)
 
 add_library(dm_api_c INTERFACE)
 add_library(dm::api_c ALIAS dm_api_c)

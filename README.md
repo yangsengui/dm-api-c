@@ -1,6 +1,6 @@
 # dm-api-c
 
-C headers and CMake package exports for DistroMate `dm_api`.
+C headers and CMake package exports for DistroMate `dm_api` native library.
 
 ## Build And Install
 
@@ -22,4 +22,4 @@ target_link_libraries(your_target PRIVATE dm::api_c)
 - Runtime and launcher lifecycle (`DM_*`)
 - Activation configuration and activation flow (`Set*`, `Activate*`)
 - Validation/status and info (`IsLicense*`, `Get*`)
-- Version/update APIs (`DM_GetVersion`, `DM_CheckForUpdates`, `DM_DownloadUpdate`)
+- Version/update APIs (`DM_GetVersion`, `DM_CheckForUpdates`, `DM_DownloadUpdate`, `DM_CancelUpdateDownload`, `DM_GetPostUpdateInfo`, `DM_AckPostUpdateInfo`)
